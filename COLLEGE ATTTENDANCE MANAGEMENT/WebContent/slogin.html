@@ -1,0 +1,91 @@
+<html>
+<head>
+<title>login</title>
+<style type="text/css">
+
+input{
+width:200px;
+height:30px;
+outline:none;
+padding:10px 11px;
+border:1px #aaa solid;
+font-size:15px;
+background:white;
+display:block;
+border-radius:5px;
+}
+.sub{
+width:80px;
+height:30px;
+color:white;
+background-color:green;
+}
+.sub1{
+width:80px;
+height:30px;
+color:white;
+background-color:red;
+}
+body{
+background:linear-gradient(white,grey);
+}
+fieldset{
+width:460px;
+color:solid;
+font-size:18px;
+}
+form{
+margin:100px auto;text-align:none;
+}
+
+table{
+border:none;
+background:rgba(2,2,2,0.6);
+margin:8px auto;
+border-radius:5px;
+padding-right:30px;
+padding-left:30px;
+padding-bottom:10px;
+}
+a{
+color:white;
+font-weight:bold;
+background-color:black;
+border-radius:15px;
+padding:2px;
+text-decoration:none;
+
+}
+.h{
+padding-left:10px;
+padding-right:10px;
+background-color:orange;
+margin:5px;
+height:30px;
+color:white;
+text-shadow:2px 2px 3px green;
+font-size:30px;
+}
+
+</style>
+</head>
+<body>
+<center><h2> ATTENDANCE MANAGEMENT SYSTEM</h2></center>
+<hr size="2" color="red"></hr>
+<div class="h"><center>STUDENT LOGIN</center></div>
+<form name="loginform" action="sloginget.jsp"><center>
+<table>
+
+<font color="red" size="3">Register email is a your user name</font>
+<tr><th>Username:
+<th><input type="text" name="user" placeholder="Username" title="Email as a username"><br></tr>
+<tr><th>Password:
+<th><input type="password" name="pass" placeholder="Password" title="Password"><br></tr>
+<tr><th><input class="sub" type="submit" value="submit"><th><input class="sub1" type="button" value="cancel"></tr></legend>
+
+</table></center>
+</form>
+<br><br><center><a href="index.html">click to Home</a>
+<a href="fr.html">click to back</a></center>
+</body>
+</html>
